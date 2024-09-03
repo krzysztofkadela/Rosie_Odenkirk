@@ -6,7 +6,7 @@
 }
 
 .ui-menu-color-menu{
-    background-color: rgb(182, 232, 182);
+    background-color: rgb(124, 129, 124);
 }
 
 .ui-menu-color-resume{
@@ -27,8 +27,12 @@ header{
     margin: 0;
     margin-left: 50px;
 }
+
+.heading{
+    margin-left: 50px;
+}
 .logo{
-    background: url("../images/rosie.jpg");
+    background: url("../images/kahlibrown.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,6 +66,10 @@ header{
     font-size: 0;
 }
 
+#nav{
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -83,5 +91,21 @@ header{
 .menu-item-a{
     padding-top: 22px;
     display: block;
+    color: #fafafa;
+    font-size: 26px;
 }
 
+.menu-item span{
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+/*----------------------hover.css--------*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}

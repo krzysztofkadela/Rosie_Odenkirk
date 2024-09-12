@@ -42,6 +42,23 @@ h5 {
 .inline-block{
     display: inline-block;
 }
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 /*----------------------heading---------*/
 
@@ -136,7 +153,7 @@ header {
 /*----------------------footer---------*/
 
 footer {
-    background-color: #e80b0b;
+    background-color: #bc5959;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -183,6 +200,17 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
 
 /* ----------------------------------------Work History */
